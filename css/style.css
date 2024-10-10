@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+width: 100%;
+height: 10vh;
+background-color: aqua;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.title{
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.menu1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding: 10px;
+    
+}
+.menu1 a:hover{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+    transition: 1s;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.content{
+width: 50%;
+}
+.content p{
+    padding: 10px;
+}
+.content button{
+    height: 30px;
+    width: 100px;
+    color: blue;
+    border-radius: 40px;
+}
+.content2{
+    padding: 10px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.pos .whatsapp{
+    width: 50px;
+    height: 50px;
+    position:fixed ;
+    right: 0px;
+    bottom: 60px;
+}
+.pos .instagram{
+    width: 50px;
+    height: 50px;
+    position:fixed ;
+    right: 0px;
+    bottom: 220px;
+
+}
+.pos .facebook{
+    width: 50px;
+    height: 50px;
+    position:fixed ;
+    right: 0px;
+    bottom: 140px;
+}
+.button{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+.menu{
+    position:absolute;
+    right: 10px;
+    
+
+}
+@media only screen and (min-width:300px)and (max-width:700px){
+    .contanier1{
+        flex-direction: column;
+
+        flex-direction: column-reverse;
+        position: stricky;
+        top: 0;
+    }
+    .contanier2{
+        flex-direction: column;
+
+        
+        position: stricky;
+        top: 0;
+    }
+    .menu1{
+        display: none;
+    }
+}
